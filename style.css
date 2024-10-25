@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0e6ff; /* Fundo lilás claro */
+}
+
+.calculadora {
+    background: #e0bbff; /* Fundo lilás da calculadora */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: right;
+    background-color: #fff; /* Fundo branco para o visor */
+}
+
+button {
+    width: 23%;
+    padding: 15px;
+    font-size: 18px;
+    margin: 5px 1%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #9b59b6; /* Cor lilás dos botões */
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #8e44ad; /* Tom lilás mais escuro ao passar o mouse */
+}
+
+button:active {
+    background-color: #732d91; /* Tom ainda mais escuro ao clicar */
+}
+
+button:nth-child(4n) {
+    background-color: #3498db; /* Botão de igual em azul */
+}
+
+button:nth-child(4n):hover {
+    background-color: #2980b9;
+}
+
+button:nth-child(4n):active {
+    background-color: #1f618d;
+}
